@@ -22,7 +22,11 @@ urlpatterns = [
     #Paths del admin
     path('admin/', admin.site.urls),
     #Paths de blog
-    path('', include('blog.urls')),
+    path('blog/', include('blog.urls')),
+    #Paths de pages
+    path('page/', include('pages.urls')),
+    #Paths de contact
+    path('contact/', include('contact.urls')),
     #Paths del core
     path('', include('core.urls')),
     #Paths de services

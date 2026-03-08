@@ -14,7 +14,4 @@ pylint-celery = "*"
 [dev-packages]
 
 [requires]
-python_version = "3.13"
-
-[scripts]
-webpersonal="python webPersonal/manage.py runserver"
+python_version = "3.14"
